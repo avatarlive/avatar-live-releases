@@ -6,6 +6,8 @@
 <title>Avatar Live — Pilote ton avatar VRM en direct</title>
 <meta name="description" content="Anime un avatar 3D VRM en temps réel avec ta webcam. Sortie OBS, enregistrement, stream, caméra virtuelle. Pour Windows." />
 <link rel="canonical" href="https://avatarlive.github.io/avatar-live-releases/" />
+<link rel="alternate" hreflang="fr" href="https://avatarlive.github.io/avatar-live-releases/" />
+<link rel="alternate" hreflang="en" href="https://avatarlive.github.io/avatar-live-releases/en/" />
 <link rel="icon" type="image/svg+xml" href="favicon.svg" />
 <link rel="icon" type="image/x-icon" href="favicon.ico" />
 <link rel="apple-touch-icon" href="apple-touch-icon.png" />
@@ -68,9 +70,11 @@
     content: ''; width: 9px; height: 9px; border-radius: 50%;
     background: var(--good); box-shadow: 0 0 0 3px rgba(58,214,142,0.18);
   }
-  nav.topnav { display: flex; gap: 1.5rem; font-size: 0.86rem; color: var(--ink-dim); }
+  nav.topnav { display: flex; align-items: center; gap: 1.5rem; font-size: 0.86rem; color: var(--ink-dim); }
   nav.topnav a { text-decoration: none; }
   nav.topnav a:hover { color: var(--ink); }
+  .lang-switch { border: 1px solid var(--line-strong); border-radius: 5px; padding: 0.2rem 0.5rem; font-family: var(--font-mono); font-size: 0.78rem; }
+  .lang-switch:hover { border-color: var(--cue); color: var(--cue); }
   .btn-download-small {
     background: var(--ink); color: var(--stage); border: none; border-radius: 5px;
     padding: 0.45rem 0.9rem; font-size: 0.82rem; font-weight: 700; text-decoration: none; cursor: pointer;
@@ -201,6 +205,7 @@
       <a href="#comment-ca-marche">Comment ça marche</a>
       <a href="#tarifs">Tarifs</a>
       <a href="#faq">FAQ</a>
+      <a class="lang-switch" href="en/">EN</a>
     </nav>
     <a class="btn-download-small" href="https://github.com/avatarlive/avatar-live-releases/releases/latest/download/Avatar-Live-Setup.exe" download>Télécharger</a>
   </div>
