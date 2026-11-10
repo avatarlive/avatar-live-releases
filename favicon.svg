@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect x="0" y="0" width="100" height="100" rx="16" fill="#0a0d10"/>
+  <!-- crochets de viseur -->
+  <g fill="#ffb020">
+    <rect x="14" y="14" width="22" height="5.2"/>
+    <rect x="14" y="14" width="5.2" height="22"/>
+    <rect x="64" y="14" width="22" height="5.2"/>
+    <rect x="80.8" y="14" width="5.2" height="22"/>
+    <rect x="14" y="80.8" width="22" height="5.2"/>
+    <rect x="14" y="64" width="5.2" height="22"/>
+    <rect x="64" y="80.8" width="22" height="5.2"/>
+    <rect x="80.8" y="64" width="5.2" height="22"/>
+  </g>
+  <!-- avatar -->
+  <circle cx="50" cy="46" r="22" fill="#eceff2"/>
+  <!-- pastille "live" -->
+  <circle cx="67.6" cy="63.6" r="13.6" fill="#0a0d10"/>
+  <circle cx="67.6" cy="63.6" r="10" fill="#3ad68e"/>
+</svg>

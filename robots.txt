@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://avatarlive.github.io/avatar-live-releases/sitemap.xml
